@@ -12,7 +12,7 @@ fun fibs(n: Int): List<Int> = (1..n).map {
     fib(it) ?: 0
 }
 
-fun ifib(n: Int, a: Int, b: Int): Int? = when {
+tailrec fun ifib(n: Int, a: Int, b: Int): Int? = when {
     n == 0 -> b
     else -> ifib(n - 1, b, a + b)
 }
