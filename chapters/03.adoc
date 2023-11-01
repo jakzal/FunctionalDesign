@@ -1,0 +1,30 @@
+== Chapter 3
+
+=== Iterative fib
+
+.link:../RecursionAndIteration/iterative-fib/src/test/kotlin/iterative_fib/core/FibsTests.kt[RecursionAndIteration / iterative-fib / FibsTests.kt]
+[source,kotlin]
+----
+include::../RecursionAndIteration/iterative-fib/src/test/kotlin/iterative_fib/core/FibsTests.kt[lines=1..2;5..]
+----
+
+.link:../RecursionAndIteration/iterative-fib/src/main/kotlin/iterative_fib/core/fibs.kt[RecursionAndIteration / iterative-fib / fibs.kt]
+[source,kotlin]
+----
+include::../RecursionAndIteration/iterative-fib/src/main/kotlin/iterative_fib/core/fibs.kt[]
+----
+
+=== Recursive fib
+
+
+.link:RecursionAndIteration/recursive-fib/src/test/kotlin/recursive_fib/core/FibsTests.kt[RecursionAndIteration / recursive-fib / FibsTests.kt]
+[source,kotlin]
+----
+include::../RecursionAndIteration/recursive-fib/src/test/kotlin/recursive_fib/core/FibsTests.kt[lines=1..2;5..]
+----
+
+.link:RecursionAndIteration/recursive-fib/src/main/kotlin/recursive_fib/core/fibs.kt[RecursionAndIteration / recursive-fib / fibs.kt]
+[source,kotlin]
+----
+include::../RecursionAndIteration/recursive-fib/src/main/kotlin/recursive_fib/core/fibs.kt[]
+----
