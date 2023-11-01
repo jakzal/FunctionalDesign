@@ -6,7 +6,7 @@ fun fibs(n: Int): List<Int> = when {
     else -> fibsWork(n, 2, listOf(1, 1))
 }
 
-private fun fibsWork(n: Int, i: Int, fs: List<Int>): List<Int> = when {
+private tailrec fun fibsWork(n: Int, i: Int, fs: List<Int>): List<Int> = when {
     i == n -> fs
     else -> fibsWork(n, i + 1, fs + fs.takeLast(2).sum())
 }
