@@ -1,4 +1,4 @@
-package recursive_fib.core
+package memoize
 
 import testkit.assertions.shouldReturn
 import org.junit.jupiter.api.Test

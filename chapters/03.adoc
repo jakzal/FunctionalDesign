@@ -26,5 +26,5 @@ include::../RecursionAndIteration/recursive-fib/src/test/kotlin/recursive_fib/co
 .link:RecursionAndIteration/recursive-fib/src/main/kotlin/recursive_fib/core/fibs.kt[RecursionAndIteration / recursive-fib / fibs.kt]
 [source,kotlin]
 ----
-include::../RecursionAndIteration/recursive-fib/src/main/kotlin/recursive_fib/core/fibs.kt[]
+include::../RecursionAndIteration/recursive-fib/src/main/kotlin/recursive_fib/core/fibs.kt[lines=1..2;5..]
 ----

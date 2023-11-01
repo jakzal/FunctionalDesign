@@ -3,6 +3,5 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":lib:memoize"))
     testImplementation(project(":lib:assertions"))
 }

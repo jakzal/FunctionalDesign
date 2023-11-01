@@ -1,4 +1,4 @@
-package recursive_fib.core
+package memoize
 
 class Memoize<IN, OUT>(
     private val f: (IN) -> OUT

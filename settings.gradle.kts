@@ -5,5 +5,7 @@ pluginManagement {
 }
 
 include("lib:assertions")
+include("lib:memoize")
+
 include("RecursionAndIteration:iterative-fib")
 include("RecursionAndIteration:recursive-fib")

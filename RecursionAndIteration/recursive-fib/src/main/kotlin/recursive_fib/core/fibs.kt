@@ -1,5 +1,7 @@
 package recursive_fib.core
 
+import memoize.Memoize
+
 fun fibw(n: Int): Int? = when {
     n < 1 -> null
     n <= 2 -> 1
