@@ -1,0 +1,15 @@
+== Chapter 4
+
+=== Lazy fib
+
+.link:../Laziness/lazy-fib/src/test/kotlin/lazy_fib/core/FibsTests.kt[Laziness / lazy-fib / FibsTests.kt]
+[source,kotlin]
+----
+include::../Laziness/lazy-fib/src/test/kotlin/lazy_fib/core/FibsTests.kt[lines=1..2;5..]
+----
+
+.link:../Laziness/lazy-fib/src/main/kotlin/lazy_fib/core/fibs.kt[Laziness / lazy-fib / fibs.kt]
+[source,kotlin]
+----
+include::../Laziness/lazy-fib/src/main/kotlin/lazy_fib/core/fibs.kt[lines=1..2;5..]
+----

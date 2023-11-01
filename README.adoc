@@ -7,3 +7,4 @@ rewritten to Kotlin.
 The original Clojure examples can be found in https://github.com/unclebob/FunctionalDesign[unclebob/FunctionalDesign].
 
 * link:chapters/03.adoc[Chapter 3]
+* link:chapters/04.adoc[Chapter 4]
