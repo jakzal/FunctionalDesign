@@ -1,4 +1,4 @@
-package mastermind.testkit.assertions
+package testkit.assertions
 
 import org.junit.jupiter.api.Assertions.*
 

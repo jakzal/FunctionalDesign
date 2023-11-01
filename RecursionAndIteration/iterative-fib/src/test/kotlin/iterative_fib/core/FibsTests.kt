@@ -1,6 +1,6 @@
 package iterative_fib.core
 
-import mastermind.testkit.assertions.shouldReturn
+import testkit.assertions.shouldReturn
 import org.junit.jupiter.api.Test
 
 class FibsTests {
